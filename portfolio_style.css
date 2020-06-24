@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+
+	html {
+		background-color: black;
+	}
+
+	header {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#headerimg {
+		width: 20%;
+		border: .5vw solid rgba(170,169,173,1.00);
+	}
+
+	ul {
+		list-style-type: none;
+		margin-bottom: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	ul.nav {
+		margin-bottom: 5vw;
+	}
+
+	li {
+		display: inline;
+
+	}
+
+	li.nav {
+		color: rgba(0,115,207,1.00);
+		font-size: 3vw;
+		font-family: Lora, serif;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+
+	li.nav:hover {
+		background-color: rgba(170,169,173,1.00);
+	}
+
+	li.nav:active {
+		background-color: rgba(0,115,207,1.00);
+	}
+
+	li.nav:visited {
+		color: rgba(0,115,207,1.00);
+	}	
+
+	.highlight:hover {
+		background-color: rgba(0,115,207,0.75);
+	}	
+
+	.next {
+		float: right;
+		margin-right: 30%;
+	}
+
+	.previous {
+		float: left;
+		margin-left: 30%;
+	}
+
+	.previous:hover {
+		background-color: rgba(0,115,207,0.75);
+	}
+
+	.next:hover {
+		background-color: rgba(0,115,207,0.75);
+	}
+
+	p {
+		font-family: Raleway, sans-serif;
+		font-weight: 400;
+		text-align: center;
+		font-size: 1.5vw;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+		color: white;
+	}
+
+	#aboutparagraph {
+		width: 60%;
+		background-color: rgba(170,169,173,0.50);
+		border-radius: 10px;
+		padding: 5px;
+	}
+	
+	h1 {
+		font-family: Lora, serif;
+		font-weight: 700;
+		font-size: 6vw;
+		text-align: center;
+		color: rgba(170,169,173,1.00);
+	}
+
+	h2 {
+		font-family: Lora, serif;
+		font-weight: 700;
+		font-size: 5vw;
+		text-align: center;
+		color: rgba(170,169,173,1.00);
+	}
+
+	h3 {
+		font-family: Lora, serif;
+		font-weight: 400;
+		font-size: 3.5vw;
+		margin-left: 5vw;
+		color: rgba(170,169,173,1.00);
+	}
+
+	h4 {
+		font-family: Lora, serif;
+		font-weight: 400;
+		font-size: 2vw;
+		margin-left: 5vw;
+		color: rgba(170,169,173,1.00);
+	}
+
+	.projectparagraph {
+		margin-left: 5vw;
+		text-align: left;
+		width: 50%;
+	}
+
+	#myimage {
+		width: 40%;
+		height: auto;
+		border: 1vw solid rgba(83,48,26,1.00);
+		margin-bottom: 3vw;
+	}
+
+	article{
+		text-align: center;	
+	}
+
+	#aboutarticle {
+		margin-top: 5vw;
+	}
+
+	section {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.crossRotate:active {
+		transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+	}
+
+	#motortrend {
+		width: 40%;
+		height: auto;
+		border: 1vw solid rgba(83,48,26,1.00);
+	}
+
+	#watch {
+		width: 40%;
+		height: auto;
+		border: 1vw solid rgba(83,48,26,1.00);
+	}
+
+	#billboard {
+		width: 40%;
+		height: auto;
+		border: 1vw solid rgba(83,48,26,1.00);
+	}
+	
+	#video1 {
+		width: 40%;
+		height: auto;
+		border: 1vw solid rgba(83,48,26,1.00);
+	}
+	
+	#video2 {
+		width: 40%;
+		height: auto;
+		border: 1vw solid rgba(83,48,26,1.00);
+	}
+
+	#emaillink {
+		color: rgba(0,115,207,1.00);
+		font-size: 2vw;
+	}
+
+	.motortrendpage {
+		width: 20%;
+		height: auto;
+		margin-left: 5vw;
+	}
+
+	#motortrendcoverpage {
+		width: 60%;
+		height: auto;
+		margin-left: 5vw;
+	}
+
+	.tools {
+		margin-left: 5vw;
+		background-color: rgba(170,169,173,0.50);
+		border-radius: 10px;
+		padding: 5px;
+	}
+
+	#watchimage {
+		width: 60%;
+		height: auto;
+		margin-left: 5vw;
+	}
+
+	#lexusbillboard {
+		width: 60%;
+		height: auto;
+		margin-left: 5vw;
+	}
+/*FOOTER CONTENTS*/
+
+	footer {
+		background-color: rgba(0,115,207,1.00);
+		margin-top: 100px;
+		clear: both;
+	}
+
+	#footerlinks {
+		text-align: center;
+	}
+
+	#behance {
+		width: 5%;
+		height: auto;
+		margin-right: 10px;
+		margin-top: 10px;
+		border: .2em solid rgba(170,169,173,1.00);
+	}
+
+	#facebook{
+		width: 5%;
+		height: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		border: .2em solid rgba(170,169,173,1.00);
+	}
+
+	#github {
+		width: 5%;
+		height: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		border: .2em solid rgba(170,169,173,1.00);
+	}
+
+	#instagram {
+		width: 5%;
+		height: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		border: .2em solid rgba(170,169,173,1.00);
+	}
+
+	#linkedin {
+		width: 5%;
+		height: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		border: .2em solid rgba(170,169,173,1.00);
+	}
+
+	#copyright {
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center; 
+	}
